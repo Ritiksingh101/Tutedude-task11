@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala 7 - Sneaker Store</title>
+     <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+<main class="checkout-container">
+    <div class="checkout-left">
+        <span class="sub-heading">Checkout</span>
+        
+        <section class="contact-details">
+            <h3>Contact Details</h3>
+            <label for="email">Email ID</label>
+            <input type="email" id="email" placeholder="John Doe">
+        </section>
+
+        <section class="payment-methods">
+            <h3>Payment</h3>
+            <div class="method-selector">
+                <div class="method active">
+                    <i class="fa fa-credit-card"></i>
+                    <span>Card</span>
+                </div>
+                <div class="method">
+                    <i class="fa fa-bitcoin"></i>
+                    <span>Crypto</span>
+                </div>
+                <div class="method">
+                    <i class="fa fa-university"></i>
+                    <span>Bank</span>
+                </div>
+                <div class="method">
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+
+            <div class="card-form">
+                <div class="input-group full">
+                    <label>Card Number</label>
+                    <input type="text" placeholder="John Doe">
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Expiry</label>
+                        <input type="text" placeholder="MM/YY">
+                    </div>
+                    <div class="input-group">
+                        <label>CVC</label>
+                        <input type="password" placeholder="***">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Country</label>
+                        <select>
+                            <option>India</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>ZIP</label>
+                        <input type="text" placeholder="XXXXX">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="checkout-right">
+        <h2 class="summary-title">Order Summary</h2>
+        <div class="summary-card">
+            <label>Enter Coupon Code</label>
+            <div class="coupon-row">
+                <input type="text" placeholder="COUPON CODE">
+                <button class="apply-btn">Apply Coupon</button>
+            </div>
+            <div class="summary-details">
+                <div class="detail-line"><span>Sub Total</span> <span>₹4,700</span></div>
+                <div class="detail-line"><span>Taxes(if applicable)</span> <span>₹299</span></div>
+                <div class="detail-line"><span>Discount</span> <span>₹0</span></div>
+                <div class="detail-line total"><span>Total</span> <span>₹4,999</span></div>
+            </div>
+        </div>
+        <button class="pay-btn">Pay Now ₹4,999</button>
+        <div class="payment-trust-icons">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREkn5GJ4WofPhNkxdDH5-s5lsBgtRVvA6QkQ&s" alt="Razorpay">
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
